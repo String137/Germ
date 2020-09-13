@@ -1,12 +1,9 @@
 import sys
 import random
-
 import tensorflow as tf
 import keras
 import numpy as np
-import random
 import pickle
-import sys
 from keras.models import Sequential
 from keras.layers import Flatten
 from keras.layers.convolutional import Conv2D
@@ -17,8 +14,7 @@ from keras.optimizers import Adam
 from collections import deque
 from keras.layers import Reshape
 from keras import backend as K
-from keras.callbacks import TensorBoard
-from time import time
+
 
 BOARD_ROWS = 7
 BOARD_COLS = 7
